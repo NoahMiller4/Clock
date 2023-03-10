@@ -1,0 +1,116 @@
+@import url("./reset.css");
+
+:root {
+    --app-dark-bg: #1a1d28;
+    --app-green: #33ab4e;
+    --app-purple: #833cff;
+    --app-orange: #ff833c;
+    --app-blue: #3c57ff;
+    --app-blue-hover: #364ee6;
+    --app-red: #ff3c57;
+    --app-red-hover: #ff2846;
+} 
+  
+body {
+  background-color: var(--app-dark-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.container {
+  width: min(100% - 30px, 1280px);
+  margin-inline: auto;
+  text-align: center;
+}
+
+/* -----------------------------------*/
+/* Clock                              */
+/* -----------------------------------*/
+
+.clock {
+  width: 350px;
+  height: 100px;
+  margin: 10px;
+  font-size: 60px;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* -----------------------------------*/
+/* Output                             */
+/* -----------------------------------*/
+
+img {
+  display: inline-block;
+  margin-top: 20px;
+  height: 30px;
+  width: 30px;
+}
+
+.output {
+  display: inline-block;
+  margin: auto;
+  margin-top: 30px;
+  margin-left: 10px;
+  width: 140px;
+  height: 60px;
+  color: #fff;
+}
+
+/* -----------------------------------*/
+/* Input                              */
+/* -----------------------------------*/
+
+.in {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.input {
+  background-color: rgb(255 255 255 / 0.3);
+  border: solid 1px #000;
+  text-align: center;
+}
+
+.input, button {
+  display: inline-block;
+  margin: auto;
+  margin-top: 30px;
+  padding: 15px 20px;
+  margin-left: 10px;
+  width: 140px;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+}
+
+
+
+/* -----------------------------------*/
+/* Buttons                            */
+/* -----------------------------------*/
+
+button {
+  color: #fff;
+  background-color: var(--app-green);
+ 
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  letter-spacing: 0.5px;
+  color: #bdb8b8;
+}
+

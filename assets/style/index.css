@@ -100,6 +100,7 @@ img {
   border: solid 1px #000;
   text-align: center;
   width: 295px;
+  border-radius: 5px;
 }
 
 /* -----------------------------------*/

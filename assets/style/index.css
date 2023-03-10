@@ -81,10 +81,6 @@ img {
 /* Input                              */
 /* -----------------------------------*/
 
-.in {
-  margin-right: 10px;
-}
-
 .input, button {
   display: inline-block;
   margin: auto;

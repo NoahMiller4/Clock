@@ -38,7 +38,7 @@ Application
 
 // Store date object of alarm
 let alarm = null;
-// Store reference to set alarm and loop till clear
+// Store reference to set alarm
 let alarmTimeout = null;
 
 const alarmSound = new Audio('./assets/audio/alarm.mp3');

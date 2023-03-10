@@ -9,6 +9,7 @@
 
 */
 
+// making clock function, setInterval to milliseconds
 setInterval(displayTime, 1000);
 
 function displayTime() {

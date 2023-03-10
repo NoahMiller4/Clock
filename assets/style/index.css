@@ -38,13 +38,24 @@ main {
 /* -----------------------------------*/
 
 .clock {
-  margin-right: 50px;
+  font-family: Orbitron, Lato, Inter, Display;
+  margin-bottom: 30px;
+  margin-right: 75px;
   width: 450px;
   height: 100px;
-  font-size: 60px;
-  color: #fff;
-  font-weight: bold;
+  font-size: 100px;
+  font-weight: 500;
+  /* Adding glow feature*/
+  color: #ffff00;
+  text-shadow: 
+    0 0 10px #daa520,
+    0 0 20px #ff4500,
+    0 0 40px #0000cd,
+    0 0 80px #800080;
+  filter: saturate(60%);
+  animation: steps(100) var(--interval) 1s infinite;
 }
+
 
 /* -----------------------------------*/
 /* Output                             */
@@ -111,7 +122,7 @@ button {
 
 button:hover {
   letter-spacing: 0.5px;
-  color: #bdb8b8;
+  color: #000;
 }
 
 

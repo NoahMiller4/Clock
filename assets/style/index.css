@@ -38,9 +38,9 @@ main {
 /* -----------------------------------*/
 
 .clock {
-  width: 350px;
+  margin-right: 50px;
+  width: 450px;
   height: 100px;
-  margin: 10px;
   font-size: 60px;
   color: #fff;
   font-weight: bold;
@@ -72,14 +72,7 @@ img {
 /* -----------------------------------*/
 
 .in {
-  display: inline-block;
   margin-right: 10px;
-}
-
-.input {
-  background-color: rgb(255 255 255 / 0.3);
-  border: solid 1px #000;
-  text-align: center;
 }
 
 .input, button {
@@ -96,7 +89,12 @@ img {
   letter-spacing: 0.4px;
 }
 
-
+.input {
+  background-color: rgb(255 255 255 / 0.3);
+  border: solid 1px #000;
+  text-align: center;
+  width: 295px;
+}
 
 /* -----------------------------------*/
 /* Buttons                            */
@@ -105,12 +103,16 @@ img {
 button {
   color: #fff;
   background-color: var(--app-green);
- 
   transition: all 0.3s ease-in-out;
+}
+
+.clear {
+  background-color: var(--app-purple);
 }
 
 button:hover {
   letter-spacing: 0.5px;
   color: #bdb8b8;
 }
+
 

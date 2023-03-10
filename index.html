@@ -31,13 +31,15 @@
                 <div id="Clock" class="clock"></div>
                 <div>
                     <img src="./assets/image/alarm-clock-xxl.png">
-                    <form class="output">00:00</form>
+                    <div class="output">00:00</div>
                 </div>
                 <div>
                     <form class="in">
-                        <input type="text" class="input" placeholder="00:00">
+                        <input onchange="setAlarmTime(this.value)" 
+                        name="alarm" type="datetime-local" class="input">
                     </form>
-                    <button>Set Alarm</button>
+                    <button class="set" onclick="setAlarm()">Set Alarm</button>
+                    <button class="clear">Clear</button>
                 </div>
             </div>
         </main>
